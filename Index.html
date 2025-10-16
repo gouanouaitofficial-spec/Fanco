@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fancô - Cœur Électrique</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Roboto', sans-serif;}
+  body { line-height: 1.6; background: #f0f4f8; color: #333;}
+  header { background: #0d47a1; color: white; padding: 30px 20px; text-align: center;}
+  header h1 { font-size: 2.5em; margin-bottom: 10px; }
+  nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+  nav a:hover { text-decoration: underline; }
+  section { padding: 60px 20px; max-width: 1000px; margin: auto;}
+  section h2 { color: #0d47a1; margin-bottom: 20px; font-size: 2em; text-align: center;}
+  section p { margin-bottom: 20px; font-size: 1.1em; text-align: justify;}
+  .btn { display: inline-block; background: #ff9800; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; transition: 0.3s;}
+  .btn:hover { background: #e68900; }
+  .cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;}
+  .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); flex: 1 1 250px; text-align: center;}
+  footer { background: #0d47a1; color: white; text-align: center; padding: 25px 10px; margin-top: 40px;}
+  @media (max-width: 768px) {
+    .cards { flex-direction: column; align-items: center; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Fancô - Cœur Électrique</h1>
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#technology">Technologie</a>
+    <a href="#impact">Impact</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>À propos de Fancô</h2>
+  <p>Fancô est un projet technologique innovant et écoresponsable basé en Afrique. Il vise à fournir de l'énergie propre et accessible aux zones isolées et aux industries locales. Notre mission est de transformer la manière dont l'électricité est produite et utilisée, en réduisant les coûts et en préservant l'environnement.</p>
+</section>
+
+<section id="technology">
+  <h2>Notre Technologie</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Production d'Énergie</h3>
+      <p>Un système intelligent de génération électrique capable d’alimenter de petites industries ou des foyers dans des zones isolées.</p>
+    </div>
+    <div class="card">
+      <h3>Stockage Intelligent</h3>
+      <p>Batteries haute performance pour stocker l’énergie et la délivrer selon les besoins, optimisant ainsi la consommation.</p>
+    </div>
+    <div class="card">
+      <h3>Écologique</h3>
+      <p>Fancô utilise des ressources renouvelables pour réduire l'empreinte carbone et offrir une énergie durable.</p>
+    </div>
+  </div>
+</section>
+
+<section id="impact">
+  <h2>Impact Social et Économique</h2>
+  <p>Fancô apporte une solution fiable pour les populations isolées, favorise la création d’emplois locaux et soutient les industries africaines dans leur transition vers l’énergie verte.</p>
+</section>
+
+<section id="contact">
+  <h2>Contactez-nous</h2>
+  <p>Email : <a href="mailto:gouanouthomasbarth@gmail.com">gouanouthomasbarth@gmail.com</a></p>
+  <p>Téléphone : 0500596232</p>
+  <p>Pour toute demande de partenariat, financement ou informations supplémentaires, cliquez ci-dessous :</p>
+  <a class="btn" href="mailto:gouanouthomasbarth@gmail.com">Envoyer un message</a>
+</section>
+
+<footer>
+  <p>© 2025 Fancô - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
